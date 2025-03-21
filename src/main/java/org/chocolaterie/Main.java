@@ -2,6 +2,7 @@ package org.chocolaterie;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Laboratoire labo = new Laboratoire();
+        labo.start();
     }
 }
